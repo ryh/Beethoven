@@ -13,8 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-        .Package(url: "https://github.com/vadymmarkov/Pitchy.git", majorVersion: 2),
+        .package(url: "https://github.com/vadymmarkov/Pitchy",from: "3.0"),
 
     ],
     targets: [
