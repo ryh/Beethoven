@@ -119,13 +119,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E953800272C031100D37C3A /* Beethoven-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D59CB1371C345E0A00290B63 /* Config.swift */,
+				D59CB14A1C345E0A00290B63 /* PitchEngine.swift */,
+				D59CB13A1C345E0A00290B63 /* Estimation */,
+				D5843EDD1DBD2CF50077F86E /* Library */,
+				D59CB14B1C345E0A00290B63 /* SignalTracking */,
+				D59CB1501C345E0A00290B63 /* Transform */,
+			);
+			path = "Beethoven-iOS";
+			sourceTree = "<group>";
+		};
 		D51575A11C343B77006F8E75 = {
 			isa = PBXGroup;
 			children = (
 				D55C01F41DBD1F8100575260 /* Frameworks */,
 				D51575AC1C343B77006F8E75 /* Products */,
 				D55C02031DBD210600575260 /* Project */,
-				D59CB1361C345E0A00290B63 /* Source */,
+				D59CB1361C345E0A00290B63 /* Sources */,
 				D55C01F51DBD210600575260 /* Tests */,
 			);
 			indentWidth = 2;
@@ -239,17 +252,12 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		D59CB1361C345E0A00290B63 /* Source */ = {
+		D59CB1361C345E0A00290B63 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D59CB1371C345E0A00290B63 /* Config.swift */,
-				D59CB14A1C345E0A00290B63 /* PitchEngine.swift */,
-				D59CB13A1C345E0A00290B63 /* Estimation */,
-				D5843EDD1DBD2CF50077F86E /* Library */,
-				D59CB14B1C345E0A00290B63 /* SignalTracking */,
-				D59CB1501C345E0A00290B63 /* Transform */,
+				0E953800272C031100D37C3A /* Beethoven-iOS */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		D59CB13A1C345E0A00290B63 /* Estimation */ = {
@@ -395,6 +403,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D51575A11C343B77006F8E75;
